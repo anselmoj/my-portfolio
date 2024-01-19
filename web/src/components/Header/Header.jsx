@@ -3,7 +3,6 @@ import './header.css';
 
 const Header = () => {
 
-    /* ====== Change Background Header ====== */
     window.addEventListener("scroll", function() {
         const header = document.querySelector(".header")
         if (this.scrollY >= 80 ) header.classList.add
@@ -11,7 +10,6 @@ const Header = () => {
         else header.classList.remove("scroll-header")
     })
 
-    /* ====== Toggle Menu ====== */
     const [ Toggle, showMenu ] = useState(false);
 
 
@@ -19,7 +17,7 @@ const Header = () => {
     <header className="header">
         <nav className="nav container">
             <a href="index.html" className='nav__logo active-link'>
-                Dudu
+                anselmoj
                 <span className='details__title'>.</span>
             </a>
 

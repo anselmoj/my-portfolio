@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
         <div className="footer__container container">
-            <h1 className='footer__title'>Dudu
+            <h1 className='footer__title'>anselmoj
             <span className='details__title'>.</span>
             </h1>
 
@@ -36,8 +36,6 @@ const Footer = () => {
                 <i className="uil uil-github-alt"></i>
             </a>
             </div>
-
-            <span className="footer__copy">&#169; Eduardo Andrade. All rigths reserved.</span>
         </div>
     </footer>
   )

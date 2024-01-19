@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import AboutImg from '../../assests/profile.jpg'
+import AboutImg from '../../assests/profile.png'
 import CV from '../../assests/eduardo-CV.pdf'
 import Info from './Info'
 
@@ -19,7 +19,7 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">Desenvolvedor front-end com experiência no ecossistema JavaScript e apaixonado por design e tecnologia. Meu objetivo é criar páginas web modernas,
-                responsivas e otimizadas para SEO. Neste ano, estou concluindo minha formação em marketing, e meu foco é combinar essas duas habilidades para entregar projetos de alto valor aos clientes. Estou em busca constante de aprendizado para impulsionar meu crescimento profissional e pessoal.
+                responsivas e otimizadas para SEO. Estou em busca constante de aprendizado para impulsionar meu crescimento profissional e pessoal.
                 Convido você a explorar meu portfólio e conhecer alguns dos projetos que desenvolvi<span className='details_point'>.</span></p>
             
                 <a download="" href={CV} className="button button--flex" style={{ justifyContent: 'center' }}>Download CV
