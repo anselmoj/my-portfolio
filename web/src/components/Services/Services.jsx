@@ -112,54 +112,6 @@ const Services = () => {
                     </div>
                 </div>
             </div>
-
-            <div className="services__content">
-                <div>
-                <i class="uil uil-analysis services__icon"></i>
-                    <h3 className='services__title'>
-                        Marketing <br /> Digital
-                    </h3>
-                </div>
-
-                <span className='services__button'onClick={() => toggleTab(3)}>Ver mais
-                <i class='uil uil-arrow-right services__button-icon'></i>
-                </span>
-
-                <div className={toggleState === 3 ? "services__modal active-modal" : "services__modal"}>
-                    <div className="services__modal-content">
-                        <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
-
-                        <h3 className="services__modal-title">Marketing Digital</h3>
-                        <p className="services__modal-description">Estratégias personalizadas de marketing para impulsionar a presença online da sua empresa.</p>
-                    
-                        <ul className="services__modal-services grid">
-                        <li className="services__modal-service">
-                                <i className='uil uil-check-circle services__modal-icon'></i>
-
-                                <p className="services__modal-info">Gestão de mídias sociais.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className='uil uil-check-circle services__modal-icon'></i>
-
-                                <p className="services__modal-info">Planejamento e criação de conteúdo.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className='uil uil-check-circle services__modal-icon'></i>
-
-                                <p className="services__modal-info">Pesquisa de mercado e análise da concorrência.</p>
-                            </li>
-
-                            <li className="services__modal-service">
-                                <i className='uil uil-check-circle services__modal-icon'></i>
-
-                                <p className="services__modal-info">Email marketing atraente e intuitivo.</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
 
     </section>

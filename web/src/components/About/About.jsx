@@ -18,7 +18,7 @@ const About = () => {
             <div className="about__data">
                 <Info />
 
-                <p className="about__description">Desenvolvedor front-end com experiência no ecossistema JavaScript e apaixonado por design e tecnologia. Meu objetivo é criar páginas web modernas,
+                <p className="about__description">Desenvolvedor front-end com experiência no ecossistema ReactJS e apaixonado por design e tecnologia. Meu objetivo é criar páginas web modernas,
                 responsivas e otimizadas para SEO. Estou em busca constante de aprendizado para impulsionar meu crescimento profissional e pessoal.
                 Convido você a explorar meu portfólio e conhecer alguns dos projetos que desenvolvi<span className='details_point'>.</span></p>
             
