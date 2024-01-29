@@ -5,12 +5,14 @@ import './header.css';
 
 const Header = () => {
 
-    window.addEventListener("scroll", function() {
-        const header = document.querySelector(".header")
-        if (this.scrollY >= 80 ) header.classList.add
-        ("scroll-header");
-        else header.classList.remove("scroll-header")
-    })
+    if (typeof window !== "undefined") {
+        window.innerHeight("scroll", function() {
+            const header = document.querySelector(".header")
+            if (this.scrollY >= 80 ) header.classList.add
+            ("scroll-header");
+            else header.classList.remove("scroll-header")
+        })
+    }
 
     const [ Toggle, showMenu ] = useState(false);
 
