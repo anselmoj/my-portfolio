@@ -6,7 +6,7 @@ import './header.css';
 const Header = () => {
 
     if (typeof window !== "undefined") {
-        window.innerHeight("scroll", function() {
+        window.addEventListener("scroll", function() {
             const header = document.querySelector(".header")
             if (this.scrollY >= 80 ) header.classList.add
             ("scroll-header");
