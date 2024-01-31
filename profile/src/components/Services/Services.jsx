@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react'
 import './services.css'
 
@@ -14,7 +15,7 @@ const Services = () => {
         <h2 className='section__title'>Serviços
             <span className='details__title'>.</span>
         </h2>
-        <span className='section__subtitle'>Sites profissionais | Blogs | Portfólios | Landing Pages | E-commerce.</span>
+        <span className='section__subtitle'>Sites profissionais | Blogs | Portfólios | Landing Pages.</span>
         
         <div className="services__container container grid">
             <div className="services__content">

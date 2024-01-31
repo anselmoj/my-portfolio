@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useState } from 'react'
 import { projectsData, projectsNav } from './Data'
 import WorksItems from './WorksItems'

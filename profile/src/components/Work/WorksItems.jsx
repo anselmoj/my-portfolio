@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const WorksItems = ({item}) => {
@@ -9,7 +10,7 @@ const WorksItems = ({item}) => {
  
   return (
     <div className="work__card" key={item.id}>
-        <img 
+        <Image 
           src={item.image} 
           alt="Tela do projeto" 
           className='work__img' 
