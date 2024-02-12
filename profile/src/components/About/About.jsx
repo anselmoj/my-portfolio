@@ -4,6 +4,8 @@ import AboutImg from '../../assests/profile.png'
 import Info from './Info'
 import Image from 'next/image';
 
+// import CV from '../../assests/paulo-CV.docx';
+
 const About = () => {
   return (
     <section className="about section" id="about">
@@ -22,7 +24,7 @@ const About = () => {
                 responsivas e otimizadas para SEO. Estou em busca constante de aprendizado para impulsionar meu crescimento profissional e pessoal.
                 Convido você a explorar meu portfólio e conhecer alguns dos projetos que desenvolvi<span className='details_point'>.</span></p>
             
-                <a download="" className="button button--flex" style={{ justifyContent: 'center' }}>Download CV
+                <a download=""  className="button button--flex" style={{ justifyContent: 'center' }}>Download CV
                 <svg
                     className="button__icon"
                     xmlns="http://www.w3.org/2000/svg"
